@@ -1,0 +1,47 @@
+* {
+    font-size:30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+}
+
+
+/* .contact-form{
+    font-size:25px;
+} */
+
+
+/*.contact-form__h2{
+    font-size:2em;
+    font-family:'Oswald', sans-serif;
+    line-height: 1;
+    font-weight: 600;
+} */
+/* 
+
+h2{
+    display: inline;
+    height:400px;
+    width:100px;
+
+}
+
+p{
+    height:400px;
+    width:100px;
+} */
+
+h2{
+    background-color: #ff0022;
+    display: inline-block;
+    padding:100px; /*aqui se entiende que el padding de 100 es para arriba, abajo, derecha e izquierda*/
+    box-sizing: border-box;
+    text-align: center;
+    margin:20px 10px;
+    border-radius: 25%;
+    border:30px solid yellow;
+    box-shadow: 5px 4px 10px 0 #000;
+    transform: rotate(15deg);
+}
+
+
+
