@@ -1,0 +1,12 @@
+* {
+    font-size: 40pt;
+    font-family: 'Oswald';
+    text-align: justify;
+}
+
+.caja-fixed{
+    background-color: #ff0022;
+    position: sticky;
+    top: 30px;
+    font-size:20pt;
+}
