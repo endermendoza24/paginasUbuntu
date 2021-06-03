@@ -1,0 +1,29 @@
+* {
+    font-size: 30pt;
+    font-family: 'Oswald';
+    font-weight: 100;
+} 
+
+.caja1{
+    height: 200px;
+    width: 200px;
+    background-color: #ee44aa;
+
+}
+/* .caja1:hover{
+    
+    color:#fff;
+    background-color:#bb44 ;
+    
+} */
+
+.caja1:active{
+    background-color: orange;
+}
+
+div:lang(es){
+    background-color: yellowgreen;
+}
+div:lang(en){
+    background-color: blue;
+}
