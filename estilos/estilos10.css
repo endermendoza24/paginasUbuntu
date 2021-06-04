@@ -1,0 +1,16 @@
+*{
+    font-size: 30pt;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.caja{
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    background-color: red;
+    cursor: pointer;
+}
+.caja:active{
+    cursor: row-resize;
+}

@@ -1,0 +1,98 @@
+*{
+    font-size: 20pt;
+    font-family: 'Oswald';
+    font-weight: 100;
+    color: black;
+    text-align: justify;
+}
+
+nav{
+    background-color: #721b65;
+    width: 100%;
+    height: 120px;        
+    
+    
+    
+}
+
+a{
+    color: #fff;
+    font-size: 20pt;
+    text-decoration: none;    
+    padding: 20px;   
+}
+ul{
+    list-style: none;    
+
+}
+ul:hover{
+    background-color: #a32991;
+}
+
+/*Artículos*/
+
+.primerArticulo{
+    background-color: #b80d57;
+    width: 68%;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    
+}
+
+.code{
+    width: 550px;
+    height: 400px;
+    float: left;
+    margin: 15px;
+}
+.segundoArticulo{
+    background-color: #f8615a;
+    padding: 10px;
+    position: relative;
+    width: 68%;
+    top: 15px;
+}
+.tercerArticulo{
+    background-color: #ffd868;
+    width: 68%;
+    padding: 10px;
+    position: relative;
+    top:20px;
+
+}
+
+.decode{
+    float: left;
+    margin: 15px;
+    object-fit:contain;
+}
+aside{
+    background-color: rgb(101, 101, 184);
+    width: 28%;
+    position: absolute;
+    left:900px;
+    top: 215px;
+    padding: 15px;
+    height: 3905px;
+    font-style: italic;
+    
+}
+.unan{
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin: 10px;;
+    object-fit: contain;    
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: rgb(59, 104, 38);
+    top: 25px;
+}
