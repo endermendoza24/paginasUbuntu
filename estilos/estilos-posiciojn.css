@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    background-color: grey;
+}
+
+
+.general{
+    margin: auto;
+    width: 980px;
+    height: 1165x;
+
+    margin-top: 50px;
+   font-size: 14pt;
+   
+}
+
+.oferta{
+    width: 300px;
+    /* height: 500px; */
+    margin-top: 20px;
+    background-color: #fcf8e8;
+    float: right;
+    padding: 5px;
+    text-align: justify;
+    margin-left:20px;
+}
+
+.novedades{
+    width: 640px;
+    height: 200px;
+    margin-top: 20px;
+    background-color: #ecdfc8;
+    padding: 5px;
+    text-align: justify;
+    
+}
+
+.body{
+    margin-top: 20px;    
+    background-color:#ecb390;
+    width: 640px;
+    height: 560px;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: justify;
+    /* margin-top: 158px; */
+}
+
+
+/****** NAVBAR ********/
+
+img{
+    width: 150px;
+    height: 100px;
+    float: left;
+    padding: 5px;
+}
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #0078d7;
+    width: 980px;
+    clear: both;
+    content: "";
+    display: table;
+    position:relative;
+    z-index: 1;
+}
+nav{
+    float: right; 
+}
+nav ul li{
+    list-style: none;
+    float:left;
+    margin: 25px;
+    padding: 25px 0;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: .2s;
+    font-size: 12pt;
+}
+nav ul li a:hover{
+    background-color: rgb(28, 202, 214);
+    color: #000;
+}
+header:hover{
+    background-color: rgb(102, 184, 78);
+}
+footer:hover{
+    background-color: rgb(9, 73, 156);
+}
+
+.cod{
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.unan{
+    width: 100px;
+    height: 140px;
+}
+
+footer{
+    background-color: rgb(31, 30, 30);
+    height: 95px;
+    padding-top: 50px;
+    color: #fff;
+    font-size: 17pt;
+    margin-top: 20px;
+    text-align: center;
+}

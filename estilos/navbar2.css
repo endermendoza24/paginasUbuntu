@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Calibri';
+}
+
+img{
+    width: 150px;
+    height: 100px;
+    float: left;
+    padding: 5px;
+}
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: rgb(93, 112, 223);
+    width: 100%;
+    clear: both;
+    content: "";
+    display: table;
+    position: fixed;
+    z-index: 1;
+}
+nav{
+    float: right; 
+}
+nav ul li{
+    list-style: none;
+    float:left;
+    margin: 25px;
+    padding: 25px 0;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: 1s;
+    font-size: 12pt;
+}
+nav ul li a:hover{
+    background-color: rgb(46, 59, 131);
+}
+
+article{
+    background-color: crimson;
+    position: relative;
+    top:130px;
+    width: 68%;
+    padding: 10px;
+    text-align: justify;
+}
