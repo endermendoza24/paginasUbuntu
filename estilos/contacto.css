@@ -1,0 +1,107 @@
+body{
+    background-image: url(../recursos/double-bubble-dark.png);
+    color: #fff;
+ }
+.contenido{
+    width: 1000px;
+    margin: auto;
+    outline: 2px solid black;
+}
+
+
+.cabecera{
+    width: 1000px;
+    height: 50px;
+    background-color: #597fb8;
+}
+.cabecera li{
+    display: inline;
+    margin-right: 60px;
+    font-size: 18pt;
+}
+.cabecera ul{
+    text-align: center;
+    padding-top: 15px;    
+}
+.cabecera a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.cabecera:hover{
+    background-color: #11428b;
+}
+.cabecera a:hover{
+    text-decoration: underline;
+}
+
+.form{
+    width: 100%;
+    margin-top: 20px;    
+    background-color: rgb(45, 128, 56);
+    padding: 10px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+input{
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: 20px;
+
+}
+.boton{
+    height: 40px;
+    margin-top: 10px;
+}
+.boton:hover{
+    background-color: grey;
+}
+
+text-align: center;
+}
+.servicio{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(243, 229, 147);
+    border-radius: 150px;
+    margin: 50px;
+    float: left;
+}
+.img-pacman{
+    margin-top: 10px;
+    width: 128px;
+    height: 80px;
+    
+}
+.pie{
+    border-top: 1px solid grey;
+    width: 1000px;
+    clear: both;
+}
+.acerca{
+    width: 250px;
+    float:left;
+    margin-right: 100px;
+}
+.enlacesInteres{
+    width: 220px;
+    float: left;
+    margin-right: 100px;        
+}
+.enlacesInteres a{
+    color: #fff;
+}
+.socialMedia{
+    width: 300px;
+    float: left;
+}
+.social{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    float: left;
+    border-radius: 50px;
+    background-color: rgb(68, 134, 255);
+}

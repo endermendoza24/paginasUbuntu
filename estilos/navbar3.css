@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: #fff;
+    background-image: url(../recursos/double-bubble-dark.png);
+}
+.contenedor{
+    width: 1020px;
+    margin: 30px auto 0 auto;
+}
+
+nav{
+    background-color: #0f4c81;
+    width: 100%;
+    height: 70px;
+    font-size: 20pt;
+    text-align: center;
+    padding-top: 40px;
+    
+    
+}
+nav:hover{
+    background-color: #2b69a0;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    
+}
+.contacto{
+    float: right;
+}
+
+img{
+    width: 80px;
+    height: 100px;
+    float: left;
+    position: relative;
+    bottom: 35px;
+    margin-left: 20px;
+}
+
+
+.seccion1{
+    width: 680px;
+    height: 500px;
+    background-color: #ffa372;
+    margin-top: 20px;
+    margin-left: 320px;
+    padding: 10px;
+}
+.seccion2{
+    width: 680px;
+    height: 500px;
+    background-color: #ed6663;
+    margin-top: 20px;
+    margin-left: 320px;
+    padding: 10px;
+}
+aside{
+    width: 280px;
+    height: 1040px;
+    background-color: #79bac1;
+    position: absolute;
+    top: 160px;
+    padding: 10px;
+}
+
+.paralax{
+    margin-top: 20px;
+    clear: both;
+    width: 1020px;
+    height: 250px;
+    background: url(../recursos/oriental-tiles.png) fixed no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.pie{
+    width: 1020px;
+    height: 100px;
+    background-color: rgb(123, 99, 180);
+    margin-top: 20px;
+ 
+    text-align: center;
+}
+
+.pie p{
+    padding-top: 30px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+    color: #000;
+}
+
+.insertada{
+    width: 100px;
+    height: 120px;
+    float: left;
+}
