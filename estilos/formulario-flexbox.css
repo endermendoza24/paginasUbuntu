@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 30px;
+    background-color: #444;
+}
+.form{
+    min-width: 400px;
+    flex: 2;
+    text-align: right;
+    padding: 30px;
+}
+.form-img{
+    flex: 2;
+    padding: 10px;
+    display: flex;
+}
+.form-img img{
+    width:60%;
+    margin: auto;
+}
+
+.form-input{
+    width: 100%;
+    padding: 6px;
+    margin: 6px 0;
+}
+.form textarea{
+    min-height: 120px;
+}
+
+/*quedé en la hora 5:48 de SoyDalto, curso de CSS*/

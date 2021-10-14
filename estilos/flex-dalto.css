@@ -1,0 +1,25 @@
+.flex-container{
+    display: flex;
+
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.flex-item{    
+    background-color: #248;
+    color: #fff;
+    margin: 5px;
+    height: 120px;
+    min-width: 120px;
+    flex-grow: 1;
+    
+}
+.orange{
+    background:orange;
+    order: 1;
+}
+
+.green{
+    background-color: green;
+    /* align-self: center; este solo afecta a este elemento en particular */
+}
